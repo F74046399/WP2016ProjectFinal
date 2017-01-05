@@ -1,0 +1,24 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "package",
+  "main": "application.js",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "repository field":{
+    "type": "git",
+    "url": "http://github.com/npm/npm.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "package"
+  ],
+  "author": "",
+  "license": "ISC"
+}

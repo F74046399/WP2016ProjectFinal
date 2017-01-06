@@ -1,3 +1,6 @@
+p {
+  line-height:5px;
+}
 body  {
   background-color:#E6F8F6;
 }
@@ -9,6 +12,12 @@ body  {
   padding-top:0px;
   padding-left:0px;
   padding-right:0px;
+}
+
+.topic{
+  position:absolute;
+  top:4px;
+  left:80px;
 }
 .banner{
   position:relative;
@@ -83,23 +92,122 @@ body  {
   font-size:32px;
 }
 #editform {
-  position:relative;
-  padding-bottom:10px;
-  margin-left:31px;
-  margin-bottom:20px;
-  width:480px;
-  height:100px;
-  border-color:#03414D;
-  border-style:solid 2px;
-  background-color:white;
+    position:absolute;
+    top:70px;
+    padding-bottom:5px;
+    margin-left:31px;
+    margin-bottom:20px;
+    padding:55px 27px;
+    max-width:530px;
+    max-height:110px;
+    border-radius:4px;
+    border-style:solid 2px;
+    background-color:#EA9215;
+    opacity:0.9;
+    border-color:#EA9215;
 }
 #title_block {
-  width=420px;
-  height=20px;
+  padding:5px 150px;
+  border-radius:4px;
+  border-color:#E7F0F1;
   display="block";
 }
 #text_block {
-  width=420px;
-  height=60px;
+  margin-top:10px;
+  padding:30px 150px;
+  border-radius:4px;
+  border-color:#E7F0F1;
   display="block"; 
+}
+
+.design{
+    position:absolute;
+    top:250px;
+    margin-left:1087px;                                                          
+    background-color:#A3C6C4;                                              
+    border-radius:5px;
+    width:190px;
+    height:180px; 
+    opacity:0.7;     
+}
+
+#bgchange {
+  position:absolute;
+  top:75px;
+  left:12px;
+  opacity:0.7;
+  padding:20px 20px;
+  border-radius:5px;
+}
+
+#bgword {
+  position:absolute;
+  top:50px;
+  left:10px;
+}
+#colorchange {
+  position:absolute;
+  top:75px;
+  left:105px;
+  opacity:0.7;
+  padding:4px 21px;
+  border-radius:5px;
+}
+
+#colorword {
+  position:absolute;
+  top:50px;
+  left:122px;
+}
+#fontchange {
+  position:absolute;
+  top:117px;
+  left:105px;
+  opacity:0.7;
+  padding:7px 23px;
+  border-radius:5px;
+}
+
+#fontword {
+  position:absolute;
+  top:160px;
+  left:127px;
+}
+.formword {
+  position:absolute;
+  top:5px;
+}
+.save{
+    position:absolute;
+    top:100px;
+    margin-left:1087px;                                                          
+    background-color:#A3C6C4;  
+    border-radius:5px;
+    width:190px;
+    height:100px; 
+    opacity:0.7;     
+}
+#send {
+  position:absolute;
+  top:35px;
+  left:12px;
+  opacity:0.7;
+  padding:4px 4px;
+  border-radius:99px;
+}
+#share {
+  position:absolute;
+  top:35px;
+  left:72px;
+  opacity:0.7;
+  padding:4px 4px;
+  border-radius:99px;
+}
+#save {
+  position:absolute;
+  top:35px;
+  left:125px;
+  opacity:0.7;
+  padding:4px 4px;
+  border-radius:99px;
 }

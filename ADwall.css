@@ -1,0 +1,36 @@
+
+body  {
+  background-color:#ECF0F1;
+}
+.menu {
+  position:relative;
+  background-color:white;
+  height:60px;
+  width:1400px;
+  padding-top:0px;
+  padding-left:0px;
+  padding-right:0px;
+}
+.slide {
+  position:relative;
+  background-color:#03414D;
+  height:480px;
+  width:1400px;
+  padding-left:0px;
+  padding-right:0px;
+}
+.show{
+  position:relative;
+  margin-left:300px;
+  margin-top:100px;
+}
+#post{
+  position:relative;
+  background-color:white;
+  height:200px;
+  width:200px;
+  opacity:0.7;
+  margin-left:20px;
+  margin-bottom:40px;
+
+}

@@ -20,26 +20,64 @@
   <!--AD_make-->
   <div class="banner">
     <br>
-    <div>
-    <div class="blocks" id="block1">
+    <div class="blocks" id="block1"><!--put background-->
      <ul class="edit_block" id="title" style="color:#03414D;vertical-align:middle">Title</ul>
-     <form id="editform" >
+     <form id="editform_title" ><!--edit mode-->
         <p class="formword"><b>Title</b></p>
         <input type="text" name="title_block" id="title_block"/>
-        <p ><b>Text</b></p>
-        <input type="text" name="text_block" id="text_block"/>
+        <button type="button" id="cancel"/>cancel</button>
+        <button type="button" id="done"/>done</button>
      </form>
-     <!--<div display:inline>
-      <button id="edit"><img src="Image/edit.png"style="height:50px;width:50px;"></button>
-      <button id="delete"><img src="Image/delete.png" style="height:50px;width:50px"></button> 
-     </div>-->
+      <img id="edit" src="Image/edit.png"style="height:20px;width:20px;">
+      <img id="delete" src="Image/delete.png" style="height:20px;width:20px"> 
      <ul class="edit_block" id="subtitle"style="color:#03414D;vertical-align:middle">Subtitle</ul>
+     <form id="editform_sub" >
+        <p class="formword"><b>Text</b></p>
+        <input type="text" name="text_block" id="title_block"/>
+        <button type="button" id="cancel1"/>cancel</button>
+        <button type="button" id="done1"/>done</button>
+     </form>
+      <img id="edit1" src="Image/edit.png"style="height:20px;width:20px;">
+      <img id="delete1" src="Image/delete.png" style="height:20px;width:20px"> 
     </div>
-  </div>
-    <div>
+    <div><!--content(no bg)-->
      <ul class="edit_block" id="content" style="color:#03414D;vertical-align:middle">content</ul> 
-    <button type="button" id="cancel">cancel</button>
-    <button type="button" id="done">done</button>
+     <form id="editform_content" >
+        <p class="formword"><b>Title</b></p>
+        <input type="text" name="title_block" id="title_block">
+        <p><b>Text</b></p>
+        <input type="text" name="text_block" id="text_block"/>
+        <button type="button" id="cancel2"/>cancel</button>
+        <button type="button" id="done2"/>done</button>
+     </form>
+      <img id="edit2" src="Image/edit.png"style="height:20px;width:20px;">
+      <img id="delete2" src="Image/delete.png" style="height:20px;width:20px;"> 
+    </div>
+    <div><!--content(no bg)-->
+     <ul class="edit_block" id="content" style="color:#03414D;vertical-align:middle">content1</ul> 
+     <form id="editform_content" >
+        <p class="formword"><b>Title</b></p>
+        <input type="text" name="title_block" id="title_block">
+        <p><b>Text</b></p>
+        <input type="text" name="text_block" id="text_block"/>
+        <button type="button" id="cancel2"/>cancel</button>
+        <button type="button" id="done2"/>done</button>
+     </form>
+      <img id="edit2" src="Image/edit.png"style="height:20px;width:20px;">
+      <img id="delete2" src="Image/delete.png" style="height:20px;width:20px;"> 
+    </div>
+    <div><!--content(no bg)-->
+     <ul class="edit_block" id="content" style="color:#03414D;vertical-align:middle">content2</ul> 
+     <form id="editform_content" >
+        <p class="formword"><b>Title</b></p>
+        <input type="text" name="title_block" id="title_block">
+        <p><b>Text</b></p>
+        <input type="text" name="text_block" id="text_block"/>
+        <button type="button" id="cancel2"/>cancel</button>
+        <button type="button" id="done2"/>done</button>
+     </form>
+      <img id="edit2" src="Image/edit.png"style="height:20px;width:20px;">
+      <img id="delete2" src="Image/delete.png" style="height:20px;width:20px;"> 
     </div>
   </div>
 
@@ -50,6 +88,24 @@
     <img id="colorchange"style="background:white;width:30px;height:30px;"src="Image/color.svg"><b id="colorword" style="color:white; ">Color</b>
     <img id="fontchange"style="background:white;width:25px;height:25px;"src="Image/font.svg"><b id="fontword" style="color:white; ">Font</b>
   </div>
+  <div class="design_table"style="overflow:auto;">
+    <div class="bg">
+      <img id="bg1" src="Image/bg1.jpg" style="width:80px;height:60px;margin-top:8px;margin-left:8px;">
+      <img id="bg2" src="Image/bg2.jpg" style="width:80px;height:60px;margin-top:8px;margin-left:8px;">
+      <img id="bg3" src="Image/bg3.jpg" style="width:80px;height:60px;margin-top:8px;margin-left:8px;">
+      <img id="bg4" src="Image/bg4.jpg" style="width:80px;height:60px;margin-top:8px;margin-left:8px;">
+      <img id="bg5" src="Image/bg5.jpg" style="width:80px;height:60px;margin-top:8px;margin-left:8px;">
+      <img id="bg6" src="Image/bg6.jpg" style="width:80px;height:60px;margin-top:8px;margin-left:8px;">
+      <img id="bg7" src="Image/bg7.jpg" style="width:80px;height:60px;margin-top:8px;margin-left:8px;">
+      <img id="bg8" src="Image/bg8.jpg" style="width:80px;height:60px;margin-top:8px;margin-left:8px;">
+      <img id="bg9" src="Image/bg9.jpg" style="width:80px;height:60px;margin-top:8px;margin-left:8px;">
+      <img id="bg10"src="Image/bg10.jpg" style="width:80px;height:60px;margin-top:8px;margin-left:8px;">
+    </div>
+    <div class="color">
+    </div>
+    <div class="font">
+    </div>
+  </div>
 
   <!--save-->
   <div class="save">
@@ -58,6 +114,8 @@
     <img id="share"style="background:white;width:40px;height:40px;"src="Image/share.svg">
     
   </div>
+  <div  class="bottom">
 
+  </div>
 </body>
 </html>

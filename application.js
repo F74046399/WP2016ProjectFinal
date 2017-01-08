@@ -1,9 +1,83 @@
 $(document).ready(function(){
     
+  $("#edit").on("click",function(){
+    $("#editform_title").show();
+    $("#cancel").show();
+    $("#done").show();
+    $("#edit").hide();
+    $("#delete").hide();
+  })
+  $("#edit1").on("click",function(){
+    $("#editform_sub").show();
+    $("#cancel1").show();
+    $("#done1").show();
+    $("#edit1").hide();
+    $("#delete1").hide();
+  })
+  $("#edit2").on("click",function(){
+    $("#editform_content").show();
+    $("#cancel2").show();
+    $("#done2").show();
+    $("#edit2").hide();
+    $("#delete2").hide();
+  })
   $("#cancel").on("click",function(){
-    $(".formword").parent().hide();
+    $("#editform_title").hide();
+    $("#cancel").hide();
+    $("#done").hide();
+    $("#edit").show();
+    $("#delete").show();
   })
   $("#done").on("click",function(){
-    $(".formword").parent().hide();
+    $("#editform_title").hide();
+    $("#cancel").hide();
+    $("#done").hide();
+    $("#edit").show();
+    $("#delete").show();
   })
+
+  $("#cancel1").on("click",function(){
+    $("#editform_sub").hide();
+    $("#cancel1").hide();
+    $("#done1").hide();
+    $("#edit1").show();
+    $("#delete1").show();
+  })
+  $("#done1").on("click",function(){
+    $("#editform_sub").hide();
+    $("#cancel1").hide();
+    $("#done1").hide();
+    $("#edit1").show();
+    $("#delete1").show();
+  })
+  $("#cancel2").on("click",function(){
+    $("#editform_content").hide();
+    $("#cancel2").hide();
+    $("#done2").hide();
+    $("#edit2").show();
+    $("#delete2").show();
+  })
+  $("#done2").on("click",function(){
+    $("#editform_content").hide();
+    $("#cancel2").hide();
+    $("#done2").hide();
+    $("#edit2").show();
+    $("#delete2").show();
+  })
+  $("#bgchange").on("click",function(){
+    $(".bg").show();
+    $(".color").hide();
+    $(".font").hide();
+  })
+  $("#colorchange").on("click",function(){
+    $(".bg").hide();
+    $(".color").show();
+    $(".font").hide();
+  })
+  $("#fontchange").on("click",function(){
+    $(".bg").hide();
+    $(".color").hide();
+    $(".font").show();
+  })
+  
 });
